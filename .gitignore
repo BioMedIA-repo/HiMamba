@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Data and experiment artifacts (do not commit private patient data)
+data/
+runs/
+*.npy
+*.pkl
+*.pt
+*.pth
+checkpoints/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
